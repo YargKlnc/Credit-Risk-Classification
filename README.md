@@ -1,4 +1,4 @@
-# credit-risk-classification
+# Credit-risk-classification
 Credit Risk Analysis by YK
 
 ![image](https://github.com/YargKlnc/credit-risk-classification/assets/142269763/b5c1216e-3aba-4ad6-a568-9e3a766ba089)
@@ -60,6 +60,10 @@ To receive all points, you must:
 Code Comments (10 points)
 To receive all points, your code must:
 •	Be well commented with concise, relevant notes that other developers can understand. (10 points)
+
+# References
+
+Head photo rights belongs to https://www.au-group.com/
 
 
 
