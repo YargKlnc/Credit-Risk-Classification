@@ -14,6 +14,7 @@ Using various techniques to train and evaluate a model based on loan risk with a
 
 The instructions are divided into three main sections:
 
+
 ### 1- Data Split into Training and Testing Sets
 
 **Instructions:**
@@ -86,6 +87,7 @@ The analysis README.md file was created, providing the following:
 
 # Tasks Completed
 
+
 *Splitting the Data into Training and Testing Sets:*
 
 • Read the lending_data.csv data from the Resources folder into a Pandas DataFrame.
@@ -93,6 +95,7 @@ The analysis README.md file was created, providing the following:
 • Created the labels set (y) from the “loan_status” column, and then created the features (X) DataFrame from the remaining columns.
 
 • Split the data into training and testing datasets by using train_test_split.
+
 
 
 *Creating a Logistic Regression Model:*
@@ -108,6 +111,7 @@ o Generated a confusion matrix.
 o Generated a classification report.
 
 o Answered the following question: How well did the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
+
 
 
 *Credit Risk Analysis Report:*
