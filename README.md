@@ -107,16 +107,6 @@ Structure your report by using the report template that Starter_Code.zip include
 •	Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning
 
 
-*Coding Conventions and Formatting*
-
-•	Place imports at the top of the file, just after any module comments and docstrings and before module globals and constants
-
-•	Name functions and variables with lowercase characters, with words separated by underscores
-
-•	Follow DRY (Don’t Repeat Yourself) principles, creating maintainable and reusable code
-
-•	Use concise logic and creative engineering where possible
-
 
 # References
 
