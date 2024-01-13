@@ -18,19 +18,26 @@ The instructions for this Challenge are divided into the following subsections:
 
 •	Write a Credit Risk Analysis Report
 
-Split the Data into Training and Testing Sets
+
+# Split the Data into Training and Testing Sets
+
 
 Open the starter code notebook and use it to complete the following steps:
 
+
 1.	Read the lending_data.csv data from the Resources folder into a Pandas DataFrame.
   
+
 2.  Create the labels set (y) from the “loan_status” column, and then create the features (X) DataFrame from the remaining columns.
    
+
 NOTE: A value of 0 in the “loan_status” column means that the loan is healthy. A value of 1 means that the loan has a high risk of defaulting.
+
 
 3.	Split the data into training and testing datasets by using train_test_split.
 
-Create a Logistic Regression Model with the Original Data
+
+# Create a Logistic Regression Model with the Original Data
 
 Use your knowledge of logistic regression to complete the following steps:
 
@@ -40,15 +47,18 @@ Use your knowledge of logistic regression to complete the following steps:
 
 3.	Evaluate the model’s performance by doing the following:
 
-o	Generate a confusion matrix.
+  o	Generate a confusion matrix.
 
-o	Print the classification report.
+  o	Print the classification report.
 
 4.	Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
 
-Write a Credit Risk Analysis Report
+
+# Write a Credit Risk Analysis Report
+
 
 Write a brief report that includes a summary and analysis of the performance of the machine learning models that you used in this homework. You should write this report as the README.md file included in your GitHub repository.
+
 
 Structure your report by using the report template that Starter_Code.zip includes, ensuring that it contains the following:
 
@@ -58,11 +68,11 @@ Structure your report by using the report template that Starter_Code.zip include
 
 3.	A summary: Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
 
+
 **Requirements**
 
-Split the Data into Training and Testing Sets
 
-To receive all points, you must:
+*Split the Data into Training and Testing Sets:*
 
 •	Read the lending_data.csv data from the Resources folder into a Pandas DataFrame
 
@@ -70,9 +80,8 @@ To receive all points, you must:
 
 •	Split the data into training and testing datasets by using train_test_split
 
-Create a Logistic Regression Model
 
-To receive all points, you must:
+*Create a Logistic Regression Model*
 
 •	Fit a logistic regression model by using the training data (X_train and y_train)
 
@@ -80,15 +89,14 @@ To receive all points, you must:
 
 •	Evaluate the model’s performance by doing the following:
 
-o	Generate a confusion matrix
+  o	Generate a confusion matrix
 
-o	Generate a classification report
+  o	Generate a classification report
 
-o	Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
+  o	Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
 
-Write a Credit Risk Analysis Report
 
-To receive all points, you must:
+*Write a Credit Risk Analysis Report*
 
 •	Provide an overview that explains the purpose of this analysis
 
@@ -96,9 +104,8 @@ To receive all points, you must:
 
 •	Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning
 
-Coding Conventions and Formatting
 
-To receive all points, you must:
+*Coding Conventions and Formatting*
 
 •	Place imports at the top of the file, just after any module comments and docstrings and before module globals and constants
 
@@ -107,6 +114,7 @@ To receive all points, you must:
 •	Follow DRY (Don’t Repeat Yourself) principles, creating maintainable and reusable code
 
 •	Use concise logic and creative engineering where possible
+
 
 # References
 
