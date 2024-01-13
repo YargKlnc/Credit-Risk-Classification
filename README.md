@@ -12,7 +12,7 @@ Using various techniques to train and evaluate a model based on loan risk with a
 
 **Instructions and Implementation**
 
-The instructions for this Challenge are divided into three main sections:
+The instructions are divided into three main sections:
 
 ## 1- Data Split into Training and Testing Sets
 
