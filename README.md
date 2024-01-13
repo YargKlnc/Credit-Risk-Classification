@@ -61,7 +61,7 @@ The instructions are divided into three main sections:
 4. The logistic regression model demonstrated effective prediction for both healthy loans (0) and high-risk loans (1).
 
 
-## 3- Credit Risk Analysis Report
+# 3- Credit Risk Analysis Report
 
 **Instructions:**
 
@@ -84,7 +84,7 @@ The analysis README.md file was created, providing the following:
 3. A comprehensive summary of the machine learning model results was provided, along with a justified recommendation for its use by the company, showcasing the effectiveness of the approach.
 
 
-**Tasks Completed**
+# Tasks Completed
 
 *Splitting the Data into Training and Testing Sets:*
 
