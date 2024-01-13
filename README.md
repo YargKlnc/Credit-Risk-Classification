@@ -10,102 +10,111 @@ Credit Risk Classification & Analysis by YK, UofT
 Using various techniques to train and evaluate a model based on loan risk with a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 
 
-**Instructions**
+**Instructions and Implementation**
 
-The instructions for this Challenge are divided into the following subsections:
-
-•	Split the Data into Training and Testing Sets
-
-•	Create a Logistic Regression Model with the Original Data
-
-•	Write a Credit Risk Analysis Report
-
+The instructions for this Challenge are divided into three main sections:
 
 # 1- Split the Data into Training and Testing Sets
 
+## Instructions:
 
-Open the starter code notebook and use it to complete the following steps:
-
-
-1.	Read the lending_data.csv data from the Resources folder into a Pandas DataFrame.
-  
-
-2.  Create the labels set (y) from the “loan_status” column, and then create the features (X) DataFrame from the remaining columns.
+1. Read the lending_data.csv data from the Resources folder into a Pandas DataFrame.
    
+2. Create the labels set (y) from the “loan_status” column, and then create the features (X) DataFrame from the remaining columns.
+   
+   *Note: A value of 0 in the “loan_status” column means that the loan is healthy, while a value of 1 indicates a high risk of defaulting.*
 
-NOTE: A value of 0 in the “loan_status” column means that the loan is healthy. A value of 1 means that the loan has a high risk of defaulting.
+3. Split the data into training and testing datasets by using train_test_split.
 
+## Implementation:
 
-3.	Split the data into training and testing datasets by using train_test_split.
+1. The lending_data.csv data was successfully read from the Resources folder into a Pandas DataFrame.
 
+2. The labels set (y) and features set (X) were created, distinguishing between healthy loans (0) and high-risk loans (1).
+
+3. The data was effectively split into training and testing datasets using the train_test_split method.
 
 # 2- Create a Logistic Regression Model with the Original Data
 
-Use your knowledge of logistic regression to complete the following steps:
+## Instructions:
 
-1.	Fit a logistic regression model by using the training data (X_train and y_train).
+1. Fit a logistic regression model by using the training data (X_train and y_train).
 
-2.	Save the predictions for the testing data labels by using the testing feature data (X_test) and the fitted model.
+2. Save the predictions for the testing data labels by using the testing feature data (X_test) and the fitted model.
 
-3.	Evaluate the model’s performance by doing the following:
+3. Evaluate the model’s performance by doing the following:
 
-  o	Generate a confusion matrix.
+   - Generate a confusion matrix.
+   - Print the classification report.
 
-  o	Print the classification report.
+4. Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
 
-4.	Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
+## Implementation:
 
+1. A logistic regression model was successfully fitted using the training data (X_train and y_train).
+
+2. Predictions for the testing data labels were saved using the testing feature data (X_test) and the fitted model.
+
+3. Model performance was evaluated, resulting in the generation of a confusion matrix and the printing of a classification report.
+
+4. The logistic regression model demonstrated effective prediction for both healthy loans (0) and high-risk loans (1).
 
 # 3- Write a Credit Risk Analysis Report
 
+## Instructions:
 
-Write a brief report that includes a summary and analysis of the performance of the machine learning models that you used in this homework. You should write this report as the README.md file included in your GitHub repository.
+Write a brief report in the README.md file included in your GitHub repository, adhering to the following structure:
 
+1. An overview of the analysis: Explain the purpose of this analysis.
 
-Structure your report by using the report template that Starter_Code.zip includes, ensuring that it contains the following:
+2. The results: Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
 
-1.	An overview of the analysis: Explain the purpose of this analysis.
+3. A summary: Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
 
-2.	The results: Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
+## Implementation:
 
-3.	A summary: Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
+The analysis README.md file was created, providing the following:
 
+1. An overview was presented, explaining the purpose of the credit risk analysis.
 
-**Requirements**
+2. Results were summarized in a bulleted list, describing the accuracy score, precision score, and recall score of the logistic regression model.
 
-
-*Split the Data into Training and Testing Sets:*
-
-•	Read the lending_data.csv data from the Resources folder into a Pandas DataFrame
-
-•	Create the labels set (y) from the “loan_status” column, and then create the features (X) DataFrame from the remaining columns
-
-•	Split the data into training and testing datasets by using train_test_split
+3. A comprehensive summary of the machine learning model results was provided, along with a justified recommendation for its use by the company, showcasing the effectiveness of the approach.
 
 
-*Create a Logistic Regression Model*
+**Tasks Completed**
 
-•	Fit a logistic regression model by using the training data (X_train and y_train)
+*Splitting the Data into Training and Testing Sets:*
 
-•	Save the predictions on the testing data labels by using the testing feature data (X_test) and the fitted model
+• Read the lending_data.csv data from the Resources folder into a Pandas DataFrame.
 
-•	Evaluate the model’s performance by doing the following:
+• Created the labels set (y) from the “loan_status” column, and then created the features (X) DataFrame from the remaining columns.
 
-  o	Generate a confusion matrix
-
-  o	Generate a classification report
-
-  o	Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
+• Split the data into training and testing datasets by using train_test_split.
 
 
-*Write a Credit Risk Analysis Report*
+*Creating a Logistic Regression Model:*
 
-•	Provide an overview that explains the purpose of this analysis
+• Fitted a logistic regression model by using the training data (X_train and y_train).
 
-•	Using a bulleted list, describe the accuracy, precision, and recall scores of the machine learning model
+• Saved the predictions on the testing data labels by using the testing feature data (X_test) and the fitted model.
 
-•	Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning
+• Evaluated the model’s performance:
 
+o Generated a confusion matrix.
+
+o Generated a classification report.
+
+o Answered the following question: How well did the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
+
+
+*Credit Risk Analysis Report:*
+
+• Provided an overview that explains the purpose of this analysis.
+
+• Using a bulleted list, described the accuracy, precision, and recall scores of the machine learning model.
+
+• Summarized the results from the machine learning model. Included justification for recommending the model for use by the company. If not recommending the model, justified the reasoning.
 
 
 # References
