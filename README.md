@@ -14,7 +14,7 @@ Using various techniques to train and evaluate a model based on loan risk with a
 
 The instructions are divided into three main sections:
 
-## 1- Data Split into Training and Testing Sets
+### 1- Data Split into Training and Testing Sets
 
 **Instructions:**
 
@@ -35,7 +35,7 @@ The instructions are divided into three main sections:
 3. The data was effectively split into training and testing datasets using the train_test_split method.
 
 
-## 2- Logistic Regression Model Created with the Original Data
+### 2- Logistic Regression Model Created with the Original Data
 
 **Instructions:**
 
@@ -61,7 +61,7 @@ The instructions are divided into three main sections:
 4. The logistic regression model demonstrated effective prediction for both healthy loans (0) and high-risk loans (1).
 
 
-# 3- Credit Risk Analysis Report
+### 3- Credit Risk Analysis Report
 
 **Instructions:**
 
