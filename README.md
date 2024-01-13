@@ -4,9 +4,11 @@ Credit Risk Classification & Analysis by YK, UofT
 
 ![image](https://github.com/YargKlnc/credit-risk-classification/assets/142269763/b5c1216e-3aba-4ad6-a568-9e3a766ba089)
 
+
 **Background**
 
 Using various techniques to train and evaluate a model based on loan risk with a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
+
 
 **Instructions**
 
