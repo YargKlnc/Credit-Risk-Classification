@@ -19,7 +19,7 @@ The instructions for this Challenge are divided into the following subsections:
 •	Write a Credit Risk Analysis Report
 
 
-# Split the Data into Training and Testing Sets
+# 1- Split the Data into Training and Testing Sets
 
 
 Open the starter code notebook and use it to complete the following steps:
@@ -37,7 +37,7 @@ NOTE: A value of 0 in the “loan_status” column means that the loan is health
 3.	Split the data into training and testing datasets by using train_test_split.
 
 
-# Create a Logistic Regression Model with the Original Data
+# 2- Create a Logistic Regression Model with the Original Data
 
 Use your knowledge of logistic regression to complete the following steps:
 
@@ -54,7 +54,7 @@ Use your knowledge of logistic regression to complete the following steps:
 4.	Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
 
 
-# Write a Credit Risk Analysis Report
+# 3- Write a Credit Risk Analysis Report
 
 
 Write a brief report that includes a summary and analysis of the performance of the machine learning models that you used in this homework. You should write this report as the README.md file included in your GitHub repository.
