@@ -14,9 +14,9 @@ Using various techniques to train and evaluate a model based on loan risk with a
 
 The instructions for this Challenge are divided into three main sections:
 
-# 1- Data Split into Training and Testing Sets
+## 1- Data Split into Training and Testing Sets
 
-## Instructions:
+**Instructions:**
 
 1. Read the lending_data.csv data from the Resources folder into a Pandas DataFrame.
    
@@ -26,7 +26,7 @@ The instructions for this Challenge are divided into three main sections:
 
 3. Split the data into training and testing datasets by using train_test_split.
 
-## Implementation:
+**Implementation:**
 
 1. The lending_data.csv data was successfully read from the Resources folder into a Pandas DataFrame.
 
@@ -35,9 +35,9 @@ The instructions for this Challenge are divided into three main sections:
 3. The data was effectively split into training and testing datasets using the train_test_split method.
 
 
-# 2- Logistic Regression Model Created with the Original Data
+## 2- Logistic Regression Model Created with the Original Data
 
-## Instructions:
+**Instructions:**
 
 1. Fit a logistic regression model by using the training data (X_train and y_train).
 
@@ -50,7 +50,7 @@ The instructions for this Challenge are divided into three main sections:
 
 4. Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
 
-## Implementation:
+**Implementation:**
 
 1. A logistic regression model was successfully fitted using the training data (X_train and y_train).
 
@@ -61,9 +61,9 @@ The instructions for this Challenge are divided into three main sections:
 4. The logistic regression model demonstrated effective prediction for both healthy loans (0) and high-risk loans (1).
 
 
-# 3- Credit Risk Analysis Report
+## 3- Credit Risk Analysis Report
 
-## Instructions:
+**Instructions:**
 
 Write a brief report in the README.md file included in your GitHub repository, adhering to the following structure:
 
@@ -73,7 +73,7 @@ Write a brief report in the README.md file included in your GitHub repository, a
 
 3. A summary: Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
 
-## Implementation:
+**Implementation:**
 
 The analysis README.md file was created, providing the following:
 
