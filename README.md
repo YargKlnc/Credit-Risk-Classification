@@ -1,4 +1,4 @@
-# Credit Risk Classification
+# Loan Risk Prediction Analysis
 
 Credit Risk Classification & Analysis by YK, UofT
 
@@ -20,8 +20,6 @@ The instructions are divided into three main sections:
 ### 2- Logistic Regression Model Created with the Original Data
 
 ### 3- Credit Risk Analysis Report
-
-# Loan Risk Prediction Analysis
 
 ## Overview of the Analysis
 
