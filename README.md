@@ -10,16 +10,15 @@ by YK, UofT
 Using various techniques to train and evaluate a model based on loan risk with a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 
 
-**Instructions and Implementation**
+**Tasks and Implementation**
 
-The instructions are divided into three main sections:
+The tasks are divided into three main sections:
 
+  1- Data Split into Training and Testing Sets
 
-### 1- Data Split into Training and Testing Sets
+  2- Logistic Regression Model Created with the Original Data
 
-### 2- Logistic Regression Model Created with the Original Data
-
-### 3- Credit Risk Analysis Report
+  3- Credit Risk Analysis Report
 
 ## Overview of the Analysis
 
@@ -54,7 +53,7 @@ In terms of high-risk loans (label `1`), the oversampled model outperformed the 
 Considering the improved performance metrics, especially the increased balanced accuracy and F1-score for high-risk loans with oversampling, it is recommended to use the logistic regression model trained on oversampled data. This model showcases enhanced accuracy and reliability in predicting both healthy and high-risk loans, making it a more robust choice for loan risk assessment. The company can benefit from the improved predictive power of this model to make more informed decisions regarding loan approvals.
 
 
-**Tasks Completed**
+**Tasks Accomplished**
 
 
 *Splitting the Data into Training and Testing Sets:*
