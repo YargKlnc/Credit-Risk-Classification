@@ -1,4 +1,4 @@
-# Credit-Risk-Classification
+# Credit Risk Classification
 
 Credit Risk Classification & Analysis by YK, UofT
 
