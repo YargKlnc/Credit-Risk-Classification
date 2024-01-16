@@ -54,7 +54,7 @@ In terms of high-risk loans (label `1`), the oversampled model outperformed the 
 Considering the improved performance metrics, especially the increased balanced accuracy and F1-score for high-risk loans with oversampling, it is recommended to use the logistic regression model trained on oversampled data. This model showcases enhanced accuracy and reliability in predicting both healthy and high-risk loans, making it a more robust choice for loan risk assessment. The company can benefit from the improved predictive power of this model to make more informed decisions regarding loan approvals.
 
 
-# Tasks Completed
+**Tasks Completed**
 
 
 *Splitting the Data into Training and Testing Sets:*
