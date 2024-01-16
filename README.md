@@ -17,72 +17,43 @@ The instructions are divided into three main sections:
 
 ### 1- Data Split into Training and Testing Sets
 
-**Instructions:**
-
-1. Reading the lending_data.csv data from the Resources folder into a Pandas DataFrame.
-   
-2. Creating the labels set (y) from the “loan_status” column, and then create the features (X) DataFrame from the remaining columns.
-   
-   *Note: A value of 0 in the “loan_status” column means that the loan is healthy, while a value of 1 indicates a high risk of defaulting.*
-
-3. Splitting the data into training and testing datasets by using train_test_split.
-
-**Implementation:**
-
-1. The lending_data.csv data was successfully read from the Resources folder into a Pandas DataFrame.
-
-2. The labels set (y) and features set (X) were created, distinguishing between healthy loans (0) and high-risk loans (1).
-
-3. The data was effectively split into training and testing datasets using the train_test_split method.
-
-
 ### 2- Logistic Regression Model Created with the Original Data
-
-**Instructions:**
-
-1. Fitting a logistic regression model by using the training data (X_train and y_train).
-
-2. Saving the predictions for the testing data labels by using the testing feature data (X_test) and the fitted model.
-
-3. Evaluating the model’s performance by doing the following:
-
-   - Generating a confusion matrix.
-   - Printing the classification report.
-
-4. Answering how well the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels.
-
-**Implementation:**
-
-1. A logistic regression model was successfully fitted using the training data (X_train and y_train).
-
-2. Predictions for the testing data labels were saved using the testing feature data (X_test) and the fitted model.
-
-3. Model performance was evaluated, resulting in the generation of a confusion matrix and the printing of a classification report.
-
-4. The logistic regression model demonstrated effective prediction for both healthy loans (0) and high-risk loans (1).
-
 
 ### 3- Credit Risk Analysis Report
 
-**Instructions:**
+# Loan Risk Prediction Analysis
 
-Writing a brief report in the README.md file included in this GitHub repository, adhering to the following structure:
+## Overview of the Analysis
 
-1. An overview of the analysis: Explaining the purpose of this analysis.
+The purpose of this analysis is to measure and compare the performance of a logistic regression model in predicting loan risks. Two instances of the model were evaluated: one trained on the original dataset, and the other on oversampled data. The goal is to assess the impact of oversampling on the model's ability to predict healthy (low-risk) and high-risk loans.
 
-2. The results: Using a bulleted list, describing the accuracy score, the precision score, and recall score of the machine learning model.
+## Results
 
-3. A summary: Summarizing the results from the machine learning model. Including the justification for recommending the model for use by the company.
-   
-**Implementation:**
+### Original Dataset Model:
 
-The analysis README.md file was created, providing the following:
+- **Balanced Accuracy:** 95%
+- **Precision (Healthy Loans):** 100%
+- **Recall (Healthy Loans):** 99%
+- **F1-Score (High-Risk Loans):** 88%
 
-1. An overview was presented, explaining the purpose of the credit risk analysis.
+### Oversampled Dataset Model:
 
-2. Results were summarized in a bulleted list, describing the accuracy score, precision score, and recall score of the logistic regression model.
+- **Balanced Accuracy:** 99%
+- **Precision (Healthy Loans):** 100%
+- **Recall (Healthy Loans):** 99%
+- **F1-Score (High-Risk Loans):** 91%
 
-3. A comprehensive summary of the machine learning model results was provided, along with a justified recommendation for its use by the company, showcasing the effectiveness of the approach.
+## Summary
+
+The logistic regression model, when trained on the original dataset, demonstrated solid performance with a balanced accuracy of 95%. However, with oversampled data, the model's balanced accuracy significantly improved to 99%, indicating enhanced predictive capabilities.
+
+For healthy loans (label `0`), both models achieved perfect precision (100%) and high recall (99%), implying a low rate of false positives and false negatives. This suggests that the models are effective in correctly identifying and accepting healthy loans.
+
+In terms of high-risk loans (label `1`), the oversampled model outperformed the original model, achieving a higher F1-score (91% compared to 88%). This indicates better balance between precision and recall for identifying high-risk loans.
+
+## Recommendation
+
+Considering the improved performance metrics, especially the increased balanced accuracy and F1-score for high-risk loans with oversampling, it is recommended to use the logistic regression model trained on oversampled data. This model showcases enhanced accuracy and reliability in predicting both healthy and high-risk loans, making it a more robust choice for loan risk assessment. The company can benefit from the improved predictive power of this model to make more informed decisions regarding loan approvals.
 
 
 # Tasks Completed
