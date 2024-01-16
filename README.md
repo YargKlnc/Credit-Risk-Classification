@@ -1,6 +1,6 @@
 # Loan Risk Prediction Analysis
 
-Credit Risk Classification & Analysis by YK, UofT
+by YK, UofT
 
 ![image](https://github.com/YargKlnc/credit-risk-classification/assets/142269763/b5c1216e-3aba-4ad6-a568-9e3a766ba089)
 
